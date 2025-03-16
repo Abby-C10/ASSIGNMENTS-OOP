@@ -24,7 +24,12 @@ void displayCustomer(const Customer&c){
 }
 
 int main(){
-    Customer c1,c2;
+    Customer c1={"Bob",23,"Withdrawal"};
+    Customer c2={"Neema",22,"Deposit"};
+        cout<<"Display the given details"<<endl;
+        displayCustomer(c1);
+        displayCustomer(c2);
+    
 
     //Enter details for the first client
     cout<<"Details for first client"<<endl;
